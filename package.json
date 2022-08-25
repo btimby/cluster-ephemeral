@@ -1,0 +1,33 @@
+{
+  "name": "cluster-ephemeral",
+  "version": "0.1.0",
+  "description": "Node module for binding ephemeral ports when using cluster module.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha tests/**/test_*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btimby/cluster-ephemeral.git"
+  },
+  "keywords": [
+    "cluster",
+    "socket",
+    "server"
+  ],
+  "author": "Ben Timby <btimby@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btimby/cluster-ephemeral/issues"
+  },
+  "homepage": "https://github.com/btimby/cluster-ephemeral#readme",
+  "dependencies": {
+    "proxied-socket": "^1.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
